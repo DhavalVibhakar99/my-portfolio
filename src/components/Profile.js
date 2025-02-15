@@ -5,7 +5,11 @@ import { FaGithub, FaLinkedin, FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "re
 const Profile = () => {
   return (
     <div className="profile">
-      <img src={`${process.env.PUBLIC_URL}/Dhaval_Vibhakar_Headshot.jpg`} alt="Profile" />
+      <img
+        src="/Dhaval_Vibhakar_Headshot.jpg"
+        alt="Profile"
+        className="profile-image"
+      />
       <h2>
         Dhaval <br />
         <span className="last-name">Vibhakar</span>
