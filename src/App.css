@@ -27,7 +27,7 @@ body {
     height: 100%;
     display: flex;
     justify-content: flex-end;
-    align-items: right;
+    align-items: flex-end;
     box-shadow: 0 0px 0px rgba(95, 111, 129);
     padding-right: 20px;
     z-index: 3;
