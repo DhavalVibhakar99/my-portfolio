@@ -6,19 +6,19 @@ const Projects = () => {
     {
       title: "SpaceX Launch Prediction and Simulation",
       description: "Simulating Falcon 9 Rocket Trajectories with Environmental and Mission-Based Insights",
-      image: "${process.env.PUBLIC_URL}/Starlink.webp",
+      image: "${process.env.PUBLIC_URL}/Starlink.png",
       link: "https://github.com/DhavalVibhakar99/SpaceX_CapeStone_Project",
     },
     {
       title: "PWC Virtual Case Study Dashboard",
       description: "Interactive Power BI Dashboard for Call Center and Customer Insights",
-      image: "${process.env.PUBLIC_URL}/PWX_Virtual_Case.webp",
+      image: "${process.env.PUBLIC_URL}/PWX_Virtual_Case.png",
       link: "https://github.com/DhavalVibhakar99/PWC_Virtual_Case",
     },
     {
       title: "Aspect-Based Sentiment Analysis on CNN Stock Data",
       description: "Predicting Market Trends with CNN: A Deep Learning Approach to Stock Analysis",
-      image: "${process.env.PUBLIC_URL}/StockMarket.webp",
+      image: "${process.env.PUBLIC_URL}/StockMarket.png",
       link: "https://github.com/DhavalVibhakar99/Stock-Analysis-using-Sentimental-Analysis-and-Web-Scraping",
     },
   ];
