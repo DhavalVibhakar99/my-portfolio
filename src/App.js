@@ -30,7 +30,7 @@ const App = () => {
             <li><a href="#contact">Get in Touch</a></li>
           </ul>
         </nav>
-        <img src="wave2.png" alt="Wave" className="wave-image" />
+        <img src={`${process.env.PUBLIC_URL}/wave2.png`} alt="Wave" className="wave-image" />
       </div>
 
       {/* White Page */}
