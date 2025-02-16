@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <div className="profile">
       <img
-        src="/Dhaval_Vibhakar_Headshot.jpg"
+        src={`${process.env.PUBLIC_URL}/Dhaval_Vibhakar_Headshot.jpg`}
         alt="Profile"
         className="profile-image"
       />

@@ -6,7 +6,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "emailjs-com": "^3.2.0",
-    "homepage": "https://github.com/DhavalVibhakar99/Portfolio",
+    "homepage": "https://DhavalVibhakar99.github.io/my-portfolio",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
@@ -20,6 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -36,6 +38,10 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
-  }
+    "gh-pages": "^6.3.0"
+
+  },
+  "homepage": "https://DhavalVibhakar99.github.io/my-portfolio"
+  
 }
+
